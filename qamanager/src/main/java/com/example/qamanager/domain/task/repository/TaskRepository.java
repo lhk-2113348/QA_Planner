@@ -1,0 +1,1 @@
+package com.example.qamanager.domain.task.repository;\n\nimport com.example.qamanager.domain.task.entity.Task;\nimport org.springframework.data.jpa.repository.JpaRepository;\nimport org.springframework.stereotype.Repository;\n\n@Repository\npublic interface TaskRepository extends JpaRepository<Task, Long> {\n}
