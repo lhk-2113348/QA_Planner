@@ -1,1 +1,14 @@
-package com.example.qamanager.domain.plan.controller;\n\nimport org.springframework.web.bind.annotation.GetMapping;\nimport org.springframework.web.bind.annotation.RequestMapping;\nimport org.springframework.web.bind.annotation.RestController;\n\n@RestController\n@RequestMapping("/plans")\npublic class PlanController {\n    @GetMapping\n    public String hello() { return "plan"; }\n}
+package com.example.qamanager.domain.plan.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/plans")
+public class PlanController {
+    @GetMapping
+    public String hello() {
+        return "plan";
+    }
+}

@@ -1,1 +1,9 @@
-package com.example.qamanager.common.util;\n\nimport java.time.LocalDateTime;\n\npublic class DateTimeUtil {\n    public static LocalDateTime now() {\n        return LocalDateTime.now();\n    }\n}
+package com.example.qamanager.common.util;
+
+import java.time.LocalDateTime;
+
+public class DateTimeUtil {
+    public static LocalDateTime now() {
+        return LocalDateTime.now();
+    }
+}

@@ -1,1 +1,9 @@
-package com.example.qamanager.domain.plan.repository;\n\nimport com.example.qamanager.domain.plan.entity.Plan;\nimport org.springframework.data.jpa.repository.JpaRepository;\nimport org.springframework.stereotype.Repository;\n\n@Repository\npublic interface PlanRepository extends JpaRepository<Plan, Long> {\n}
+package com.example.qamanager.domain.plan.repository;
+
+import com.example.qamanager.domain.plan.entity.Plan;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface PlanRepository extends JpaRepository<Plan, Long> {
+}

@@ -1,1 +1,8 @@
-package com.example.qamanager.common.config;\n\nimport org.springframework.context.annotation.Configuration;\n\n@Configuration\npublic class SwaggerConfig {\n\n}
+package com.example.qamanager.common.config;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class SwaggerConfig {
+
+}

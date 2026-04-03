@@ -1,1 +1,7 @@
-package com.example.qamanager.domain.plan.service;\n\nimport org.springframework.stereotype.Service;\n\n@Service\npublic class PlanService {\n}
+package com.example.qamanager.domain.plan.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class PlanService {
+}
