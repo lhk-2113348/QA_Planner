@@ -15,7 +15,11 @@ public class UploadController {
 
     @PostMapping
     public ResponseEntity<String> upload(@RequestParam("file") MultipartFile file) {
-        uploadService.upload(file);
-        return ResponseEntity.ok("업로드 완료");
+        try {
+            uploadService.upload(file);
+            return ResponseEntity.ok("업로드 완료");
+        } catch (IllegalArgumentException e) {
+            return ResponseEntity.badRequest().body(e.getMessage());
+        }
     }
 }
